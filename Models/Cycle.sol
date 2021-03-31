@@ -2,14 +2,14 @@ pragma solidity ^0.5.0;
 
 import "./Contribution.sol";
 
-contract Round{
+contract Cycle{
     /* 
         @Project: BSC-Master-Project
-        @Authors: noryson#5495, 
+        @Authors: noryson#5495, qaurde#2661,
         @Description: This contract keeps track of a contribution round.
     */
 
-    uint roundNo;
+    uint cycleNo;
     Contribution contribution;
     address[] remittedContributors;
     address[] unRemittedContributors;
@@ -18,7 +18,7 @@ contract Round{
 
     function constructor(Contribution hostContribution){
         contribution = hostContribution;
-        roundNo = hostContribution.getRounds().len();
+        cycleNo = hostContribution.getCycles().len();
         unRemittedContributors = hostContribution.contributors;
         concluded = false;
     }
