@@ -1,6 +1,6 @@
 # CoinPool
 # About Project
-Hello everyone, we have developed Coinpool **a simple decentralized application (DApp) project** based on the cooperative societies system in Nigeria. Cooperative thrift societies are groups formed by people who have come together to help themselves by contributing their resources and achieving one goal. 
+Hello everyone, we have developed Coinpool **a simple decentralized application (DApp) project** based on the financial cooperative society system in Nigeria. Cooperative thrift societies are groups formed by people who have come together to help themselves by contributing their resources to enable increased asset availability. 
 
 This project is based on BEP20 or ERC20 tokens. The workflow of the entire DApp project is executed by a Pool contract. The user stakes the digital currency, he/she holds into the Pool contract. The contract generates a sum of staked assets and in several cycles when it is the users turn to collect the Pooled funds then the contributed assets are returned.
 
