@@ -28,8 +28,8 @@ Open
 3. Botros Ayad
 4. Oghenekparobo Onosemuode
 5. Dre
-6. Oyindamola
-7. Strider
+6. Oyindamola Dasola Abiola
+7. Mbora Githua
 8. Olukayode Alao
 
 
