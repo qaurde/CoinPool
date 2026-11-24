@@ -1,0 +1,23 @@
+{
+  "home_cities": ["LON"],
+  "passport": "GB",
+  "currency": "usd",
+  "visited_countries": ["GB", "FR", "ES", "PT"],
+  "exclude_countries": [],
+  "visa_ok": ["visa free", "visa on arrival", "e-visa", "eta"],
+
+  "window": { "start": "2027-01-10", "end": "2027-06-30" },
+  "trip_nights": { "min": 3, "max": 9 },
+  "max_price_per_trip": 450,
+  "total_budget": 1800,
+  "max_trips": 5,
+  "min_days_between_trips": 21,
+
+  "mode": "roundtrip",
+  "chain": {
+    "max_hops": 4,
+    "nights_per_stop": 3,
+    "flex_days": 4,
+    "max_leg_price": 150
+  }
+}
